@@ -3,7 +3,7 @@
 [![Paper](https://img.shields.io/badge/arXiv-2604.15306-b31b1b.svg)](https://arxiv.org/abs/2604.15306)
 [![Conference](https://img.shields.io/badge/ICLR-2026-blue.svg)](https://openreview.net/)
 
-**[Yao Tong](mailto:tongyao@u.nus.edu)**, Jiayuan Ye, Anastasia Borovykh, Reza Shokri
+Yao Tong, Jiayuan Ye, Anastasia Borovykh, Reza Shokri
 
 Official implementation of the ICLR 2026 paper *"Generalization in LLM Problem Solving: The Case of the Shortest Path"*.
 
