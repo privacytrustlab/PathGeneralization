@@ -1,0 +1,36 @@
+# Data & Models (too large for git)
+ckpt/
+dataset/
+models/
+trainer_output/
+lightning_logs/
+wandb/
+
+# Logs
+logs/
+*.log
+/sft-*/
+/grpo_*/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# Temp & backups
+*.copy*
+*copy.*
+tmp*
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
