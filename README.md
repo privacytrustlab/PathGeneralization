@@ -13,7 +13,7 @@ Official implementation of the ICLR 2026 paper *"Generalization in LLM Problem S
 
 **1. Models can spatially transfer to entirely unseen maps, providing evidence of systematic structural generalization, but fail under length scaling, primarily due to recursive instability.**
 
-<p align="center">
+<p align="left">
   <img src="figures/Fig1.png" width="45%" alt="Spatial transfer vs. length scaling"/>
   &nbsp;
   <img src="figures/Tab1.png" width="40%" alt="Composition analysis of length scaling failure"/>
@@ -23,13 +23,13 @@ Official implementation of the ICLR 2026 paper *"Generalization in LLM Problem S
 
 **3. RL (GRPO) stabilizes training but does not surpass the performance ceiling of SFT**, and exhibits similar error patterns. RL remains below the best SFT performance even when stronger inference strategies are used to better unlock intrinsic capability, and appears to restrict the effective solution space.
 
-<p align="center">
+<p align="left">
   <img src="figures/Fig6.png" width="85%" alt="SFT vs GRPO length scaling across training steps"/>
 </p>
 
 **4. Advanced inference-time strategies** can improve performance for both SFT and RL models but **cannot rescue length scaling failures**.
 
-<p align="center">
+<p align="left">
   <img src="figures/Fig7.png" width="55%" alt="Length scaling under different decoding strategies"/>
 </p>
 
